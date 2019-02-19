@@ -22,7 +22,7 @@ if(isset($_POST['searchPosts'])){ //при нажатии кнопки доба�
     <link rel="stylesheet" href="main.css">
 </head>
     <body>
-        <form action="SiteHunter.php" method="POST">
+        <form action="HabraHunter.php" method="POST">
             <label for="pages_count">Колличество страниц:</label>
             <input type="text" name="pages_count">
             <button type="submit" name="searchPosts">Найти</button>
